@@ -3,3 +3,8 @@
 self.addEventListener('install', event => {
   console.log('service worker has been installed')
 })
+
+// listen for the activate event from service worker!
+self.addEventListener('activate', event => {
+  console.log('service worker has been activated')
+})
