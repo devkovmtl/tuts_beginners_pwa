@@ -8,3 +8,8 @@ self.addEventListener('install', event => {
 self.addEventListener('activate', event => {
   console.log('service worker has been activated')
 })
+
+// fetch event occure whenever we try to grab something from server
+self.addEventListener('fetch', event => {
+  console.log('fetch event', event)
+})
