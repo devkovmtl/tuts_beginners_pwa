@@ -4,11 +4,11 @@
   "description": "PWA tutorials beginners from NetNinja",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devkovmtl/tuts_beginners_pwa.git"
+    "url": "https://github.com/devkovmtl/tuts_beginners_pwa.git"
   },
   "keywords": [
     "PWA"
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/devkovmtl/tuts_beginners_pwa/issues"
   },
-  "homepage": "https://github.com/devkovmtl/tuts_beginners_pwa#readme"
+  "homepage": "https://devkovmtl.github.io/tuts_beginners_pwa",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
