@@ -1,0 +1,22 @@
+{
+  "name": "tuts_beginners_pwa",
+  "version": "1.0.0",
+  "description": "PWA tutorials beginners from NetNinja",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devkovmtl/tuts_beginners_pwa.git"
+  },
+  "keywords": [
+    "PWA"
+  ],
+  "author": "dev.kov.mtl@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devkovmtl/tuts_beginners_pwa/issues"
+  },
+  "homepage": "https://github.com/devkovmtl/tuts_beginners_pwa#readme"
+}
